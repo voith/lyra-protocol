@@ -48,7 +48,7 @@ export const lyraContractPaths = [
   '@lyrafinance/protocol/contracts/synthetix/SignedDecimalMath.sol',
 
   // mocks
-  '@lyrafinance/protocol/contracts/test-helper/SynthetixAdapter.sol',
+  '@lyrafinance/protocol/contracts/test-helpers/SynthetixAdapter.sol',
   '@lyrafinance/protocol/contracts/test-helpers/BytesLib.sol',
   '@lyrafinance/protocol/contracts/test-helpers/MathTest.sol',
   '@lyrafinance/protocol/contracts/test-helpers/MockAggregatorV2V3.sol',
