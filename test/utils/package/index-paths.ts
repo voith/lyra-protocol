@@ -57,6 +57,11 @@ export const lyraContractPaths = [
   '@lyrafinance/protocol/contracts/test-helpers/TestERC20.sol',
   '@lyrafinance/protocol/contracts/test-helpers/TestERC20Fail.sol',
   '@lyrafinance/protocol/contracts/test-helpers/TestERC20SetDecimals.sol',
+  '@lyrafinance/protocol/contracts/test-helpers/snx/TestExchanger.sol',
+  '@lyrafinance/protocol/contracts/test-helpers/snx/TestExchangeRates.sol',
+  '@lyrafinance/protocol/contracts/test-helpers/snx/TestAddressResolver.sol',
+  '@lyrafinance/protocol/contracts/test-helpers/snx/TestCollateralShort.sol',
+  '@lyrafinance/protocol/contracts/test-helpers/snx/TestDelegateApprovals.sol',
   '@lyrafinance/protocol/contracts/test-helpers/TestFaucet.sol',
 
   // @openzeppelin
