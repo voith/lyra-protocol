@@ -49,6 +49,7 @@ export const lyraContractPaths = [
 
   // mocks
   '@lyrafinance/protocol/contracts/test-helpers/SynthetixAdapter.sol',
+  '@lyrafinance/protocol/contracts/test-helpers/ShortPoolHedger.sol',
   '@lyrafinance/protocol/contracts/test-helpers/BytesLib.sol',
   '@lyrafinance/protocol/contracts/test-helpers/MathTest.sol',
   '@lyrafinance/protocol/contracts/test-helpers/MockAggregatorV2V3.sol',
@@ -56,12 +57,13 @@ export const lyraContractPaths = [
   '@lyrafinance/protocol/contracts/test-helpers/TestCurve.sol',
   '@lyrafinance/protocol/contracts/test-helpers/TestERC20.sol',
   '@lyrafinance/protocol/contracts/test-helpers/TestERC20Fail.sol',
-  '@lyrafinance/protocol/contracts/test-helpers/TestERC20SetDecimals.sol',
+  '@lyrafinance/protocol/contracts/test-helpers/TestERC20SetDecimalsFail.sol',
   '@lyrafinance/protocol/contracts/test-helpers/snx/TestExchanger.sol',
   '@lyrafinance/protocol/contracts/test-helpers/snx/TestExchangeRates.sol',
   '@lyrafinance/protocol/contracts/test-helpers/snx/TestAddressResolver.sol',
   '@lyrafinance/protocol/contracts/test-helpers/snx/TestCollateralShort.sol',
   '@lyrafinance/protocol/contracts/test-helpers/snx/TestDelegateApprovals.sol',
+  '@lyrafinance/protocol/contracts/test-helpers/snx/TestSynthetixReturnZero.sol',
   '@lyrafinance/protocol/contracts/test-helpers/TestFaucet.sol',
 
   // @openzeppelin
