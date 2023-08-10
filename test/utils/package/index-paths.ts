@@ -13,7 +13,6 @@ export const lyraContractPaths = [
   '@lyrafinance/protocol/contracts/OptionMarket.sol',
   '@lyrafinance/protocol/contracts/OptionToken.sol',
   '@lyrafinance/protocol/contracts/ShortCollateral.sol',
-  '@lyrafinance/protocol/contracts/SynthetixAdapter.sol',
   '@lyrafinance/protocol/contracts/SNXPerpV2Adapter.sol',
 
   // interfaces
@@ -49,6 +48,7 @@ export const lyraContractPaths = [
   '@lyrafinance/protocol/contracts/synthetix/SignedDecimalMath.sol',
 
   // mocks
+  '@lyrafinance/protocol/contracts/test-helper/SynthetixAdapter.sol',
   '@lyrafinance/protocol/contracts/test-helpers/BytesLib.sol',
   '@lyrafinance/protocol/contracts/test-helpers/MathTest.sol',
   '@lyrafinance/protocol/contracts/test-helpers/MockAggregatorV2V3.sol',
