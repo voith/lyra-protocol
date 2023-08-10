@@ -14,6 +14,7 @@ export const lyraContractPaths = [
   '@lyrafinance/protocol/contracts/OptionToken.sol',
   '@lyrafinance/protocol/contracts/ShortCollateral.sol',
   '@lyrafinance/protocol/contracts/SNXPerpV2Adapter.sol',
+  '@lyrafinance/protocol/contracts/SNXPerpsV2PoolHedger.sol',
 
   // interfaces
   '@lyrafinance/protocol/contracts/interfaces/ILiquidityPool.sol',
